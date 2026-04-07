@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #0b0b0b;
+  color: #fff;
+}
+
+/* NAVBAR */
+header {
+  width: 100%;
+  padding: 20px 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #111;
+}
+
+.logo i {
+  font-size: 26px;
+  color: white;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #aaa;
+  font-size: 14px;
+  position: relative;
+}
+
+nav a.active {
+  color: white;
+}
+
+nav a.active::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background: red;
+  left: 0;
+  bottom: -6px;
+}
+
+.moon i {
+  font-size: 20px;
+}
+
+/* HERO */
+.hero {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 80px;
+  position: relative;
+}
+
+/* LEFT TEXT */
+.left h3 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.left h1 {
+  font-size: 60px;
+}
+
+.left h1 span {
+  color: #e63946;
+}
+
+.left h2 {
+  font-size: 55px;
+  margin: 10px 0 30px;
+}
+
+.left a {
+  text-decoration: none;
+}
+
+.left button {
+  background: #e63946;
+  border: none;
+  padding: 12px 28px;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* SOCIAL ICONS */
+.socials {
+  margin-top: 40px;
+  display: flex;
+  gap: 25px;
+}
+
+.socials a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.socials i {
+  font-size: 18px;
+  color: #aaa;
+  cursor: pointer;
+}
+
+/* RIGHT IMAGE */
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-box {
+  width: 300px;
+  height: 360px;
+  clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
+  overflow: hidden;
+}
+
+.image-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* BACKGROUND EFFECT */
+.hero {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 120px; /* increase space a bit */
+  padding: 0 80px;
+  position: relative;
+}
