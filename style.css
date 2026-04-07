@@ -142,3 +142,50 @@ nav a.active::after {
   padding: 0 80px;
   position: relative;
 }
+
+
+/* ================= MOBILE RESPONSIVENESS ================= */
+@media (max-width: 768px) {
+
+  header {
+    padding: 20px;
+  }
+
+  nav {
+    display: none; /* hides nav on small screens */
+  }
+
+  .hero {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 40px;
+    padding: 20px;
+    height: auto;
+  }
+
+  .left h3 {
+    font-size: 28px;
+  }
+
+  .left h1 {
+    font-size: 38px;
+  }
+
+  .left h2 {
+    font-size: 28px;
+  }
+
+  .left button {
+    margin-top: 10px;
+  }
+
+  .socials {
+    justify-content: center;
+  }
+
+  .image-box {
+    width: 220px;
+    height: 260px;
+  }
+}
