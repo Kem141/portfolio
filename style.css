@@ -253,9 +253,16 @@ nav a:hover {
     padding: 20px;
   }
 
+  @media (max-width: 768px) {
+
   nav {
-    display: none; /* hides nav on small screens */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
   }
+
+}
 
   .hero {
     flex-direction: column;
