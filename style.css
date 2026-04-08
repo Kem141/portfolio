@@ -292,31 +292,47 @@ nav {
 
 
 /* ================= MOBILE RESPONSIVENESS ================= */
+/* ================= MOBILE ================= */
 @media (max-width: 768px) {
+
+  header {
+    padding: 20px;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
 
   nav {
     position: absolute;
     top: 70px;
     left: 0;
     width: 100%;
-    height: 100vh; /* FULL SCREEN */
+    height: 100vh;
     background: #0b0b0b;
-    
+
     display: none;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 
-    z-index: 999; /* STAYS ABOVE EVERYTHING */
+    z-index: 999;
   }
 
   nav.active {
     display: flex;
   }
 
-}
+  nav a {
+    margin: 15px 0;
+    font-size: 20px;
+  }
 
+  header {
+    position: relative;
+  }
 
+  /* HERO FIX */
   .hero {
     flex-direction: column;
     justify-content: center;
@@ -338,10 +354,6 @@ nav {
     font-size: 28px;
   }
 
-  .left button {
-    margin-top: 10px;
-  }
-
   .socials {
     justify-content: center;
   }
@@ -350,4 +362,5 @@ nav {
     width: 220px;
     height: 260px;
   }
+
 }

@@ -83,12 +83,8 @@
   toggle.addEventListener("click", () => {
     nav.classList.toggle("active");
   });
-</script>
 
-<script>
-  const links = document.querySelectorAll("#nav-menu a");
-
-  links.forEach(link => {
+  document.querySelectorAll("#nav-menu a").forEach(link => {
     link.addEventListener("click", () => {
       nav.classList.remove("active");
     });
