@@ -13,23 +13,29 @@
 
   <!-- NAVBAR -->
   <header>
-    <div class="logo">
-      <i class="ri-user-3-fill"></i>
-    </div>
+  <div class="logo">
+    <i class="ri-user-3-fill"></i>
 
-    <nav>
-      <a class="active" href="#">Home</a>
-      <a href="#">About</a>
-      <a href="#">Skills</a>
-      <a href="projects.html">Projects</a>
-      <a href="#">Contact</a>
-    </nav>
+  </div>
 
-    <div class="moon">
-      <i class="ri-moon-line"></i>
-    </div>
-  </header>
+  <!-- NAV -->
+  <nav id="nav-menu">
+    <a class="active" href="#">Home</a>
+    <a href="#">About</a>
+    <a href="projects.html">Projects</a>
+    <a href="#">Contact</a>
+  </nav>
 
+  <div class="moon">
+    <i class="ri-moon-line">
+    </i>
+  </div>
+
+  <!-- HAMBURGER -->
+  <div class="menu-toggle" id="menu-toggle">
+    <i class="ri-menu-line"></i>
+  </div>
+</header>
   <!-- HERO -->
   <section class="hero">
 
@@ -69,6 +75,25 @@
     </div>
 
   </section>
+
+  <script>
+  const toggle = document.getElementById("menu-toggle");
+  const nav = document.getElementById("nav-menu");
+
+  toggle.addEventListener("click", () => {
+    nav.classList.toggle("active");
+  });
+</script>
+
+<script>
+  const links = document.querySelectorAll("#nav-menu a");
+
+  links.forEach(link => {
+    link.addEventListener("click", () => {
+      nav.classList.remove("active");
+    });
+  });
+</script>
 
 </body>
 </html>
