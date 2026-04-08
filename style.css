@@ -292,42 +292,18 @@ nav {
 
 
 /* ================= MOBILE RESPONSIVENESS ================= */
+*/
 @media (max-width: 768px) {
 
-  .menu-toggle {
-    display: block;
+  header {
+    padding: 20px;
   }
 
   nav {
-    display: none; /* HIDE IT FIRST */
-    position: absolute;
-    top: 70px;
-    left: 0;
-    width: 100%;
-    background: #111;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px 0;
+    display: none; /* hides nav on small screens */
   }
 
-  nav.active {
-    display: flex; /* SHOW WHEN CLICKED */
-  }
 
-}
-
-
-
-@media (max-width: 768px) {
-
-  nav {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 10px;
-  }
-
-}
 
   .hero {
     flex-direction: column;
