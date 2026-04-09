@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me</title>
+  <link rel="stylesheet" href="style.css">
+
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+
+<header>
+  <div class="logo">
+    <i class="ri-user-3-fill"></i>
+  </div>
+
+  <nav id="nav-menu">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="projects.html">Projects</a>
+    <a href="index.html#contact">Contact</a>
+  </nav>
+
+  <div class="menu-toggle" id="menu-toggle">
+    <i class="ri-menu-line"></i>
+  </div>
+</header>
+
+<section class="about-page">
+
+  <div class="about-center">
+    <h3>Hi,</h3>
+    <h1>I'm <span>Kem</span></h1>
+    <h2>Front end Developer</h2>
+
+    <p>
+      I’m a front-end developer focused on building clean, responsive and user-friendly interfaces.
+      I enjoy turning ideas into real, functional websites using HTML, CSS and JavaScript.
+    </p>
+
+    <p>
+      I’m continuously improving my skills by building projects and learning how to create better user experiences.
+    </p>
+
+    <div class="skills">
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>JavaScript</span>
+      <span>Responsive Design</span>
+      <span>GitHub</span>
+    </div>
+
+    <a href="mailto:Matthewekemini@hotmail.com">
+      <button>Contact</button>
+    </a>
+
+  </div>
+
+</section>
+
+<script>
+  const toggle = document.getElementById("menu-toggle");
+  const nav = document.getElementById("nav-menu");
+
+  toggle.addEventListener("click", () => {
+    nav.classList.toggle("active");
+  });
+</script>
+
+</body>
+</html>

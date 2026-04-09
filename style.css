@@ -364,3 +364,403 @@ nav {
   }
 
 }
+
+
+
+/* ===== ABOUT PAGE ===== */
+
+.about-page {
+  padding: 80px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.about-container {
+  max-width: 700px;
+  text-align: center;
+}
+
+.about-container h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.about-container p {
+  margin-bottom: 20px;
+  line-height: 1.6;
+  color: #ccc;
+}
+
+.about-container h2 {
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.skills span {
+  background: #1a1a1a;
+  padding: 8px 15px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+
+
+
+/* ===== PREMIUM ABOUT PAGE ===== */
+
+.about-page {
+  padding: 80px 40px;
+}
+
+/* TOP SECTION */
+.about-top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 120px;
+  padding: 0 80px;
+}
+
+.about-image img {
+  width: 280px;
+  height: 340px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.about-text h1 {
+  font-size: 55px;
+  margin-bottom: 20px;
+}
+
+.about-text p {
+  font-size: 16px;
+  color: #aaa;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  max-width: 500px;
+}
+.about-page {
+  padding: 100px 0;
+}
+
+/* SKILLS */
+.skills-section h2 {
+  margin-bottom: 15px;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 40px;
+}
+
+.skills span {
+  background: #1a1a1a;
+  padding: 10px 18px;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.skills span:hover {
+  background: #e63946;
+}
+
+/* TIMELINE */
+.timeline-item {
+  margin-bottom: 25px;
+  padding-left: 20px;
+  border-left: 2px solid #e63946;
+}
+
+.timeline-item h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.timeline-item p {
+  font-size: 14px;
+  color: #aaa;
+}
+
+/* CTA */
+.about-cta {
+  margin-top: 40px;
+}
+
+.about-cta .btn {
+  background: #e63946;
+  padding: 12px 25px;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.about-cta .btn:hover {
+  background: #ff4d5a;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+
+  .about-top {
+    flex-direction: column;
+    text-align: center;
+    gap: 40px;
+    padding: 20px;
+  }
+
+  .about-text h1 {
+    font-size: 38px;
+  }
+
+}
+
+
+/* ===== CENTERED ABOUT PAGE ===== */
+
+.about-center {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about-center h1 {
+  font-size: 55px;
+  margin-bottom: 20px;
+}
+
+.about-center p {
+  color: #aaa;
+  line-height: 1.7;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+.about-center h2 {
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+/* Skills */
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.skills span {
+  background: #1a1a1a;
+  padding: 10px 18px;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.skills span:hover {
+  background: #e63946;
+}
+
+/* Button */
+.about-btn {
+  display: inline-block;
+  background: #e63946;
+  padding: 12px 25px;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.about-btn:hover {
+  background: #ff4d5a;
+}
+
+/* Spacing */
+.about-page {
+  padding: 100px 20px;
+}
+
+
+/* ===== ABOUT PAGE (SAFE ADDITION) ===== */
+
+.about-center {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about-center h3 {
+  font-size: 40px;
+}
+
+.about-center h1 {
+  font-size: 60px;
+}
+
+.about-center h1 span {
+  color: #e63946;
+}
+
+.about-center h2 {
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+
+.about-center p {
+  color: #aaa;
+  line-height: 1.7;
+  margin-bottom: 15px;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin: 25px 0;
+}
+
+.skills span {
+  background: #1a1a1a;
+  padding: 10px 18px;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.skills span:hover {
+  background: #e63946;
+}
+
+.about-page {
+  padding: 100px 20px;
+}
+
+
+}  /* your last existing CSS ends here */
+
+
+/* ===== ABOUT PAGE (SAFE ADDITION) ===== */
+
+.about-center {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about-center h3 {
+  font-size: 40px;
+}
+
+.about-center h1 {
+  font-size: 60px;
+}
+
+.about-center h1 span {
+  color: #e63946;
+}
+
+.about-center h2 {
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+
+.about-center {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0 10px;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin: 25px 0;
+}
+
+.skills span {
+  background: #1a1a1a;
+  padding: 10px 18px;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.skills span:hover {
+  background: #e63946;
+}
+
+.about-page {
+  padding: 120px 20px;
+}
+
+.about-center button {
+  margin-top: 10px;
+}
+
+.about-center {
+  animation: fadeIn 0.8s ease-in;
+}
+
+
+/* mobile fix*/
+
+@media (max-width: 768px) {
+
+  .about-center h1 {
+    font-size: 38px;
+  }
+
+  .about-center h2 {
+    font-size: 28px;
+  }
+
+  .about-center h3 {
+    font-size: 28px;
+  }
+
+}
+
+/* ===== CONTACT SECTION ===== */
+
+.contact-section {
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.contact-section h1 {
+  font-size: 50px;
+  margin-bottom: 15px;
+}
+
+.contact-section p {
+  color: #aaa;
+  margin-bottom: 20px;
+}
+
+.contact-section button {
+  background: #e63946;
+  border: none;
+  padding: 12px 28px;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact-section button:hover {
+  background: #ff4d5a;
+}
