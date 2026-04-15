@@ -83,7 +83,6 @@ nav a:hover {
   height: 90vh;
   display: flex;
   align-items: center;
-  justify-content: space-between;
   padding: 0 80px;
   position: relative;
 }
@@ -172,6 +171,11 @@ nav a:hover {
   transform: translateY(-3px);
 }
 
+.left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 /* SOCIAL ICONS */
 .socials {
@@ -242,6 +246,10 @@ nav a:hover {
   gap: 120px; /* increase space a bit */
   padding: 0 80px;
   position: relative;
+}
+
+.right {
+  margin-top: 30px;
 }
 
 
@@ -333,38 +341,14 @@ nav {
 
   /* HERO FIX */
   .hero {
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    gap: 40px;
-    padding: 20px;
-    height: auto;
-  }
-
-  .left h3 {
-    font-size: 28px;
-  }
-
-  .left h1 {
-    font-size: 38px;
-  }
-
-  .left h2 {
-    font-size: 28px;
-  }
-
-  .socials {
-    justify-content: center;
-  }
-
-  .image-box {
-    width: 220px;
-    height: 260px;
-  }
-
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; /* 🔥 THIS FIXES CENTER */
+  text-align: center;
+  padding: 20px;
 }
-
-
 
 /* ===== ABOUT PAGE ===== */
 
