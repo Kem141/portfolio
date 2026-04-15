@@ -87,6 +87,10 @@ nav a:hover {
   position: relative;
 }
 
+.hero {
+  margin-top: 80px;
+}
+
 /* PROJECTS */
 .projects-page {
   padding: 80px;
